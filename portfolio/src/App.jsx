@@ -13,10 +13,9 @@ function App() {
         {/* Define routes using the Route component to render different page components at different paths */}
         {/* Define a default route that will render the Home component */}
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<Header />} />
-        <Route path="ProjectGallery" element={<ProjectGallery />} />
         {/* Define a route that will have descendant routes */}
-        <Route path="contact/*" element={<Contact />} />
+        <Route path="ProjectGallery/*" element={<ProjectGallery />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </Router>
   );
