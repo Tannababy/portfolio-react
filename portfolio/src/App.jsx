@@ -14,8 +14,8 @@ function App() {
         {/* Define a default route that will render the Home component */}
         <Route path="/" element={<Home />} />
         {/* Define a route that will have descendant routes */}
-        <Route path="ProjectGallery/*" element={<ProjectGallery />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="/projectGallery/*" element={<ProjectGallery />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
