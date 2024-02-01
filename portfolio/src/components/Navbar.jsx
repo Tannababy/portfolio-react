@@ -30,7 +30,6 @@ function Navbar() {
         <li className="nav-item">
           <NavLink
             to="projectGallery/project"
-            end
             className={({ isActive }) =>
               isActive ? "nav-link active" : "nav-link"
             }
@@ -41,7 +40,6 @@ function Navbar() {
         <li className="nav-item">
           <NavLink
             to="contact"
-            end
             className={({ isActive }) =>
               isActive ? "nav-link active" : "nav-link"
             }
