@@ -1,21 +1,70 @@
+import React from "react";
 import Project from "./project";
+
 const projectData = [
-    {
-        name: "abc",
-        description: "lore ipsum",
-    },
-    {
-        name: "1234",
-        description: "ipsum lorem",
-    }
-]
+  {
+    key: "",
+    title: "abc",
+    description: "lore ipsum",
+    imageUrl: "",
+    link: "",
+  },
+  {
+    key: "",
+    title: "abc",
+    description: "lore ipsum",
+    imageUrl: "",
+    link: "",
+  },
+  {
+    key: "",
+    title: "abc",
+    description: "lore ipsum",
+    imageUrl: "",
+    link: "",
+  },
+  {
+    key: "",
+    title: "abc",
+    description: "lore ipsum",
+    imageUrl: "",
+    link: "",
+  },
+  {
+    key: "",
+    title: "abc",
+    description: "lore ipsum",
+    imageUrl: "",
+    link: "",
+  },
+  {
+    key: "",
+    title: "abc",
+    description: "lore ipsum",
+    imageUrl: "",
+    link: "",
+  },
+  {
+    key: "",
+    title: "abc",
+    description: "lore ipsum",
+    imageUrl: "",
+    link: "",
+  },
+];
 
 function ProjectGallery() {
-    return <ul>
+  return (
+    <div>
+      <ul>
         {projectData.map((project) => {
-            return <Project name={project.name} description={project.description} />
+          return (
+            <Project title={project.title} description={project.description} />
+          );
         })}
-    </ul>;
-  }
-  
-  export default ProjectGallery;
+      </ul>
+    </div>
+  );
+}
+
+export default ProjectGallery;

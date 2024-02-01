@@ -1,23 +1,53 @@
-import ProjectGallery from "./projectGallery";
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav>
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a href="/" class="nav-link active" aria-current="page">
+      <ul className="nav nav-pills">
+        <li className="nav-item">
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
             Home
-          </a>
+          </NavLink>
         </li>
-        <li class="nav-item">
-          <a href="/projectGallery" class="nav-link">
+        <li className="nav-item">
+          <NavLink
+            to="projectGallery"
+            end
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
             Project Gallery
-          </a>
+          </NavLink>
         </li>
-        <li class="nav-item">
-          <a href="/contact" class="nav-link">
-            Contact
-          </a>
+        <li className="nav-item">
+          <NavLink
+            to="projectGallery/project"
+            end
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Project
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            to="contact"
+            end
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Contact Me
+          </NavLink>
         </li>
       </ul>
     </nav>
