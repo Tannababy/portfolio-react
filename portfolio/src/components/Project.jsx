@@ -26,17 +26,17 @@ function Project() {
 
   return (
     <div>
-      <div className="card" style={{ width: "100px;" }}>
+      <div className="card" style={{ width: "100px" }}>
         <img
-          src={`./images/${setProject.image}.jpg`}
+          src={`./images/${Project.image}.jpg`}
           className="card-img-top"
-          alt={setProject.title}
+          alt={Project.title}
         />
         <div className="card-body">
-          <h5 className="card-title">{title}</h5>
-          <p className="card-text">{description}</p>
+          <h5 className="card-title">{Project.title}</h5>
+          <p className="card-text">{Project.Projectdescription}</p>
           <a
-            href={setProject.app}
+            href={Project.app}
             className="btn btn-primary"
             target="_blank"
             rel="noopener noreferrer"
@@ -44,7 +44,7 @@ function Project() {
             View application
           </a>
           <a
-            href={setProject.gitHub}
+            href={Project.gitHub}
             className="btn btn-primary"
             target="_blank"
             rel="noopener noreferrer"

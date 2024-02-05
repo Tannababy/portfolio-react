@@ -3,30 +3,29 @@
     "key": "prework-guide",
     "title": "Prework Study Guide",
     "description": "A simple html page about study notes made during the preparation for the frontend dev bootcamp.",
-    "image": "preworkguide",
+    "image": "/src/images/preworkguide.jpeg",
     "app": "https://tannababy.github.io/-prework-study-guide/",
     "github": "https://github.com/Tannababy/-prework-study-guide"
   },
   {
     "key": "team-profile-generator",
     "title": "Team Profile Generator",
-    "description": "lore ipsum",
+    "description": "A command-line application that enables the user to generate a webpage that dispalys information about the software engineering team.",
     "image": "",
-    "app": "",
     "github": "https://github.com/Tannababy/team-profile-generator"
   },
   {
     "key": "readme-generator",
     "title": "ReadMe Generator",
     "description": "An application that a developer can use to dynamically generate a professional README.md file, to focus more time and energy on the main project.",
-    "image": "readmePic",
+    "image": "images/Demo-vid copy.gif",
     "github": "https://github.com/Tannababy/ReadMe-file"
   },
   {
     "key": "password-generator",
     "title": "Password Generator",
     "description": "An app designed to generate passwords at random based of the criteria selected by the user.",
-    "image": "passwordgenerator",
+    "image": "images/DemoGif copy.gif",
     "app": "https://tannababy.github.io/password-generator/",
     "github": "https://github.com/Tannababy/password-generator"
   },
@@ -41,17 +40,17 @@
   {
     "key": "work-day-scheduler",
     "title": "Work-day Scheduler",
-    "description": "lore ipsum",
+    "description": "A simple calendar application that allows users to schedule events for each hour of the day. The app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.",
     "image": "",
-    "app": "",
+    "app": "https://tannababy.github.io/work-day-scheduler/",
     "github": "https://github.com/Tannababy/work-day-scheduler"
   },
   {
-    "key": "abc",
-    "title": "abc",
-    "description": "lore ipsum",
+    "key": "weather-dashboard",
+    "title": "Weather Dashboard",
+    "description": "The Weather App is a simple web application that allows users to check the current weather and 5-day forecast for a specific location. It utilises the OpenWeatherMap API to retrieve weather data.",
     "image": "",
-    "app": "",
-    "github": ""
+    "app": "https://tannababy.github.io/weather-dashboard/",
+    "github": "https://github.com/Tannababy/weather-dashboard"
   }
 ]
