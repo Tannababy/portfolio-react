@@ -7,7 +7,7 @@ function Project() {
 
   useEffect(() => {
     // Fetch project data from the JSON file
-    fetch("/src/datasets/projectData.json") // Update the path to your JSON file
+    fetch("/src/datasets/projectData.json") //
       .then((response) => response.json())
       .then((data) => {
         const selectedProject = data.find(
@@ -26,7 +26,7 @@ function Project() {
 
   return (
     <div>
-      <div className="card" style={{ width: "100px" }}>
+      <div className="card" style={{ width: "18rem" }}>
         <img
           src={`./images/${Project.image}.jpg`}
           className="card-img-top"
@@ -34,7 +34,7 @@ function Project() {
         />
         <div className="card-body">
           <h5 className="card-title">{Project.title}</h5>
-          <p className="card-text">{Project.Projectdescription}</p>
+          <p className="card-text">{Project.description}</p>
           <a
             href={Project.app}
             className="btn btn-primary"

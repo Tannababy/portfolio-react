@@ -27,7 +27,7 @@ function Navbar() {
             Project Gallery
           </NavLink>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <NavLink
             to="projectGallery/project"
             className={({ isActive }) =>
@@ -36,7 +36,7 @@ function Navbar() {
           >
             Project
           </NavLink>
-        </li>
+        </li> */}
         <li className="nav-item">
           <NavLink
             to="contact"
