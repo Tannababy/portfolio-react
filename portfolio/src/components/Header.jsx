@@ -1,3 +1,4 @@
+import React from "react";
 import Navbar from "./Navbar";
 
 function Header() {
@@ -9,7 +10,7 @@ function Header() {
           className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
         >
           <svg className="bi me-2" width="40" height="32">
-            <use xlink:href="#bootstrap"></use>
+            <use xlinkHref="#bootstrap"></use>
           </svg>
         </a>
         <Navbar />

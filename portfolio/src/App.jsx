@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 //page components
 import Home from "./components/home";
@@ -13,10 +14,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-
-        <Route path="/projectGallery" element={<ProjectGallery />}></Route>
-        <Route path="/project/:key" element={<Project />}></Route>
-
+        <Route path="/projectGallery" element={<ProjectGallery />} />
+        <Route path="/projectGallery/:projectkey" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
