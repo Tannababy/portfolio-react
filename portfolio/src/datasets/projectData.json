@@ -4,7 +4,7 @@
       "key": "prework-guide",
       "title": "Prework Study Guide",
       "description": "A simple html page about study notes made during the preparation for the frontend dev bootcamp.",
-      "image": "/src/images/preworkguide.jpeg",
+      "image": "/images/preworkguide.jpeg",
       "app": "https://tannababy.github.io/-prework-study-guide/",
       "github": "https://github.com/Tannababy/-prework-study-guide"
     },
@@ -19,14 +19,14 @@
       "key": "readme-generator",
       "title": "ReadMe Generator",
       "description": "An application that a developer can use to dynamically generate a professional README.md file, to focus more time and energy on the main project.",
-      "image": "images/Demo-vid copy.gif",
+      "image": "images/readmeGenerator.gif",
       "github": "https://github.com/Tannababy/ReadMe-file"
     },
     {
       "key": "password-generator",
       "title": "Password Generator",
       "description": "An app designed to generate passwords at random based of the criteria selected by the user.",
-      "image": "images/DemoGif copy.gif",
+      "image": "images/passwordGenerator.gif",
       "app": "https://tannababy.github.io/password-generator/",
       "github": "https://github.com/Tannababy/password-generator"
     },
@@ -34,7 +34,7 @@
       "key": "fitness-forcast",
       "title": "Fitness Forecast",
       "description": "A fitness app for busy professionals that suggests workouts based on the weather conditions.",
-      "image": "",
+      "image": "images/firForecast.gif",
       "app": "tannababy.github.io/FitForecast/",
       "github": "https://github.com/Tannababy/FitForecast"
     },
